@@ -35,6 +35,14 @@ veggy <- cabbages
 
 <!--Graphical results here.  Make sure to show your code.  Provide appropriate labels for axes, giving units if possible, and provide a good title for the graph, too.  Use the graphical results to describe the patterns if any that exist in the data as focused toward the research question!-->
 
+```{r}
+boxplot(VitC~Cult,data=veggy)
+```
+
+The bottom of the box c52 is in a higher position than box c39 if i move them into the same column they would not bump into each other, if i took box c52 and moved it to left they would not bump into each other because the box c52 is higher than box c39. 
+
+
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
