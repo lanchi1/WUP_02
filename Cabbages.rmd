@@ -43,9 +43,15 @@ The bottom of the box c52 is in a higher position than box c39 if i move them in
 
 
 
+
 ### Numerical Descriptive Results
 
 <!--Numerical results go here. Use the numerical results to describe the patterns if any that exist in the data as focused toward the research question!-->
+```{r}
+favstats(VitC~Cult,data=veggy)
+```
+
+The third quartile of c39 is 54.75 and the first quartile of c52 is 56. The average of c39 is 51.5 and the average amount of c52 is 64.4.
 
 ## Inferential Results
 
